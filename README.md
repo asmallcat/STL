@@ -5,17 +5,17 @@ STL
 ####1.1.C语言的输入输出
 
 ```cpp
-	int a;
-	scanf("%d\n", a);
-	printf("%d", a);
+    int a;
+    scanf("%d\n", a);
+    printf("%d", a);
 ```
 
 ####1.2.C++语言的输入输出
 
 ```cpp
-	int a,b,c;
-	cin>>a>>b>>c;
-	cout<<a<<b<<c<<endl;
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<a<<b<<c<<endl;
 ```
 
 ###2.STL与algorithm头文件
