@@ -136,7 +136,6 @@ int main(){
     return 0;
 }
 ```
-
 ###3.string()
 
 概念：相当于char * 封装，理解为字符串
