@@ -1,6 +1,7 @@
 STL
 ------------
 ###1.输入输出
+
 ####1.1.C语言的输入输出
 
 ```cpp
@@ -8,14 +9,19 @@ STL
 	scanf("%d\n", a);
 	printf("%d", a);
 ```
+
 ####1.2.C++语言的输入输出
+
 ```cpp
 	int a,b,c;
 	cin>>a>>b>>c;
 	cout<<a<<b<<c<<endl;
 ```
+
 ###2.STL与algorithm头文件
+
 ####2.1.sort()函数
+
 #####2.1.1.迭代器
     迭代器————理解为指针，但是迭代器分为4种：
     1) 正向迭代器，定义方法如下：
@@ -26,7 +32,9 @@ STL
     容器类名::reverse_iterator  迭代器名;
     4) 常量反向迭代器，定义方法如下：
     容器类名::const_reverse_iterator  迭代器名;
+
 #####2.1.2.sort排序实例
+
 sort()函数语法描述：sort(begin,end,cmp),cmp参数可以没有，如果没有默认非降序排序。
 - 以int为例的基本数据类型的sort使用
 	1. 升序：sort(begin,end,less<data-type>());
@@ -128,9 +136,13 @@ int main(){
     return 0;
 }
 ```
+
 ###3.string()
+
 概念：相当于char * 封装，理解为字符串
+
 ####3.1.简单使用
+
 ```cpp
 int main(){
 	//C中定义字符串以及打印
@@ -145,7 +157,9 @@ int main(){
 	return 0;
 }
 ```
+
 ####3.2.获得一行字符串
+
 我想获取一行字符串
 ```cpp
 hello world
